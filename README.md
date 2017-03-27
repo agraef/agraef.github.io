@@ -50,7 +50,7 @@ here's a brief overview of the available projects:
 
 * **NEW!** The [Pd-L2Ork Arch Package Repository](https://l2orkaur.bitbucket.io/)
   has binary packages for pd-l2ork, purr-data (Jonathan Wilkes' new
-  cross-platform variant of pd-l2ork which is still in beta at this time),
+  cross-platform variant of pd-l2ork),
   as well as builds of pd-pure and pd-faust for pd-l2ork/purr-data and all
   required dependencies not readily available in the standard Arch
   repositories. There's also an extensive README there with setup
@@ -94,7 +94,11 @@ here's a brief overview of the available projects:
   in the [AUR](https://aur.archlinux.org/packages/pizmidi-git/).
 
 * **NEW!** The [Pure LAC09 examples](https://github.com/agraef/pure-lac09) are back! You can also download them as a [tarball](https://github.com/agraef/pure-lac09/archive/1.0.tar.gz) or a [zip archive](https://github.com/agraef/pure-lac09/archive/1.0.zip) again. These are the accompanying materials for my presentation "Signal Processing in the Pure Programming Language" at the Linux Audio Conference 2009 at Parma, with some minor touches for compatibility with present-day Pure. They were originally on Pure's GoogleCode page, but got lost when GC closed its doors. Since the paper and the accompanying materials are still valid and may still be useful for Pure users, they have found a new home on Github now.
- 
+
+* **NEW!** The Purr Data [Github mirror][21] provides a one-stop shop for
+  Jonathan Wilkes' new cross-platform variant of Pd-l2ork (a Pd version with a
+  much improved GUI and lots of bundled plugins).
+
 * [rigkontrol](https://bitbucket.org/agraef/rigkontrol) is a Pd patch
   which translates control signals from Native Instrument's [Guitar Rig Kontrol](http://www.soundonsound.com/sos/sep04/articles/niguitar.htm#2)
   foot switch to MIDI CC. You'll find this patch useful if you have a Rig Kontrol
@@ -115,8 +119,9 @@ here's a brief overview of the available projects:
 
 The Faust-related software has been tested and is known to work with both the
 stable Faust and the experimental [Faust2][6] version available in the Faust
-git repository. The Pd externals have been tested and work with both [vanilla
-Pd][8] and with the [pd-extended][9] and [pd-l2ork][10] distributions.
+git repository. The Pd externals have been tested and work with
+both [vanilla Pd][8] and with the [pd-extended][9], [pd-l2ork][10]
+and [purr-data][21] distributions.
 
 Source tarballs and binary packages for Pure and related projects can be found
 on the [Download](https://github.com/agraef/pure-lang/releases) page of
@@ -164,3 +169,4 @@ addon modules on the [Addons][18] wiki page.
 [18]: https://github.com/agraef/pure-lang/wiki/Addons
 [19]: http://www.steinberg.net/en/company/developers.html
 [20]: https://github.com/ssj71/OSC2MIDI
+[21]: https://agraef.github.io/purr-data/
