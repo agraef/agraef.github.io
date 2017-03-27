@@ -1,11 +1,12 @@
 # Welcome!
 
-You've reached Albert Gräf's presence on Github. Here you can find pointers
-to the source code and documentation of my functional programming
-language [Pure][1] (now on Github) and related projects still mostly hosted
-on Bitbucket. In particular, there's also some software for [Faust][5],
-Grame's functional dsp programming language, [Pd][7], Miller Puckette's
-graphical computer music and multimedia environment, and Dave
+You've reached Albert Gräf's presence on Github. I'm a computer scientist and
+mathematician from the [Johannes Gutenberg University][0] (JGU) at Mainz,
+Germany. Here you can find pointers to the source code and documentation of my
+functional programming language [Pure][1] (now on Github) and related projects
+still mostly hosted on Bitbucket. In particular, there's also some software
+for [Faust][5], Grame's functional dsp programming language, [Pd][7], Miller
+Puckette's graphical computer music and multimedia environment, and Dave
 Robillard's [LV2][11], the new audio and MIDI plugin standard for Linux and
 other Unix systems.
 
@@ -142,6 +143,7 @@ projects for those.
 Windows users can find pointers to binary packages for Pure and some of the
 addon modules on the [Addons][18] wiki page.
 
+[0]: https://www.uni-mainz.de/eng/index.php
 [1]: https://agraef.github.io/pure-lang/
 [2]: https://github.com/agraef/pure-lang
 [3]: https://agraef.github.io/pure-docs/
