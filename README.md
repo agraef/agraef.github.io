@@ -97,7 +97,7 @@ here's a brief overview of the available projects:
 
 * **NEW!** The Purr Data [Github mirror][21] provides a one-stop shop for
   Jonathan Wilkes' new cross-platform variant of Pd-l2ork (a Pd version with a
-  much improved GUI and lots of bundled plugins).
+  much improved GUI and lots of bundled externals).
 
 * [rigkontrol](https://bitbucket.org/agraef/rigkontrol) is a Pd patch
   which translates control signals from Native Instrument's [Guitar Rig Kontrol](http://www.soundonsound.com/sos/sep04/articles/niguitar.htm#2)
