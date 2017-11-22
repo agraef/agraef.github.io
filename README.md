@@ -1,7 +1,7 @@
 # Welcome!
 
 You've reached Albert Gräf's presence on Github. I'm a computer scientist and
-mathematician from the [Johannes Gutenberg University][0] (JGU) at Mainz,
+mathematician working at the [Johannes Gutenberg University][0] (JGU) at Mainz,
 Germany. Here you can find pointers to the source code and documentation of my
 functional programming language [Pure][1] (now on Github) and related projects
 still mostly hosted on Bitbucket. In particular, there's also some software
@@ -11,9 +11,11 @@ Robillard's [LV2][11], the new audio and MIDI plugin standard for Linux and
 other Unix systems.
 
 Please note that this site is in a perpetual state of construction, and also
-serves as a grab bag for various other side projects. I will
-hopefully turn it into a full website some time, but for the time being,
-here's a brief overview of the available projects:
+serves as a grab bag for various other side projects. I will hopefully turn it
+into a full website some time, but for the time being, here's a brief overview
+of the available projects.
+
+## The Pure programming language
 
 * The [pure-lang][2] source code repository has the source code of the Pure
   programming language interpreter and various addon modules. In particular,
@@ -26,6 +28,13 @@ here's a brief overview of the available projects:
 
 * [sublime-pure](https://bitbucket.org/agraef/sublime-pure) provides Pure
   language support for the [Sublime Text](http://www.sublimetext.com/) editor.
+
+## The computer music and multimedia corner
+
+* **NEW!** [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These
+  are my Ardour bindings for the
+  [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini)
+  controller which turn the APCmini into a useful DAW controller.
 
 * [faust-lv2](https://bitbucket.org/agraef/faust-lv2) is my latest and
   greatest version of the LV2 plugin architecture for the Faust programming
@@ -48,7 +57,7 @@ here's a brief overview of the available projects:
   program, Spencer Jackson's configurable OSC-(Jack)MIDI bridge written in C.
   Requires Pure, as well as Tcl/Tk and Gnocl.
 
-* **NEW!** The [Pd-L2Ork Arch Package Repository](https://l2orkaur.bitbucket.io/)
+* The [Pd-L2Ork Arch Package Repository](https://l2orkaur.bitbucket.io/)
   has binary packages for pd-l2ork, purr-data (Jonathan Wilkes' new
   cross-platform variant of pd-l2ork),
   as well as builds of pd-pure and pd-faust for pd-l2ork/purr-data and all
@@ -71,7 +80,7 @@ here's a brief overview of the available projects:
   services, so it can be used for any kind of TCP- or UDP-based service
   running in the local Zeroconf domain.
 
-* **NEW!** [pd-smmf](https://bitbucket.org/agraef/pd-smmf): Documentation and
+* [pd-smmf](https://bitbucket.org/agraef/pd-smmf): Documentation and
   examples for the Pd "Simple MIDI Message Format", a symbolic MIDI
   representation in Pd message format. This is used by most of my Pd externals
   using MIDI in some way, but is useful in its own right if you need to pass
@@ -93,7 +102,7 @@ here's a brief overview of the available projects:
   with some minor touches for Linux compatibility. An Arch PKGBUILD is available
   in the [AUR](https://aur.archlinux.org/packages/pizmidi-git/).
 
-* **NEW!** The [Pure LAC09 examples](https://github.com/agraef/pure-lac09) are back! You can also download them as a [tarball](https://github.com/agraef/pure-lac09/archive/1.0.tar.gz) or a [zip archive](https://github.com/agraef/pure-lac09/archive/1.0.zip) again. These are the accompanying materials for my presentation "Signal Processing in the Pure Programming Language" at the Linux Audio Conference 2009 at Parma, with some minor touches for compatibility with present-day Pure. They were originally on Pure's GoogleCode page, but got lost when GC closed its doors. Since the paper and the accompanying materials are still valid and may still be useful for Pure users, they have found a new home on Github now.
+* The [Pure LAC09 examples](https://github.com/agraef/pure-lac09) are back! You can also download them as a [tarball](https://github.com/agraef/pure-lac09/archive/1.0.tar.gz) or a [zip archive](https://github.com/agraef/pure-lac09/archive/1.0.zip) again. These are the accompanying materials for my presentation "Signal Processing in the Pure Programming Language" at the Linux Audio Conference 2009 at Parma, with some minor touches for compatibility with present-day Pure. They were originally on Pure's GoogleCode page, but got lost when GC closed its doors. Since the paper and the accompanying materials are still valid and may still be useful for Pure users, they have found a new home on Github now.
 
 * **NEW!** The Purr Data [Github mirror][21] provides a one-stop shop for
   Jonathan Wilkes' new cross-platform variant of Pd-l2ork (a Pd version with a
@@ -116,6 +125,8 @@ here's a brief overview of the available projects:
   manual entry of sysex messages. **NEW!** This program is also available as a
   Pd external in the [pd-smmf](https://bitbucket.org/agraef/pd-smmf) package,
   see above.
+
+## Notes
 
 The Faust-related software has been tested and is known to work with both the
 stable Faust and the experimental [Faust2][6] version available in the Faust
