@@ -31,10 +31,7 @@ of the available projects.
 
 ## The computer music and multimedia corner
 
-* **NEW!** [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These
-  are my Ardour bindings for the
-  [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini)
-  controller which turn the APCmini into a useful DAW controller.
+* **NEW!** [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These are my Ardour bindings for the [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini) controller which turn the APCmini into a useful DAW controller. There's a little [pdf](https://github.com/agraef/apcmini-ardour/blob/master/APCmini-Ardour.pdf) manual available.
 
 * [faust-lv2](https://bitbucket.org/agraef/faust-lv2) is my latest and
   greatest version of the LV2 plugin architecture for the Faust programming
