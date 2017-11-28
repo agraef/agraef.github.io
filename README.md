@@ -64,7 +64,7 @@ of the available projects.
   packages is also available for Ubuntu, please check the
   [Pd-L2Ork Ubuntu PPAs](https://l2orkubuntu.bitbucket.io/) page for details.
 
-* **NEW!** [pd-jacktime](https://github.com/agraef/pd-jacktime) is a Pd external written in Lua which provides a basic interface to the Jack transport client API. This lets you sync your Pd patches to Jack time masters such as [Ardour](https://ardour.org/) and [Hydrogen](http://hydrogen-music.org). Requires [pd-lua](https://github.com/agraef/pd-lua) (and [Jack](http://jackaudio.org/), of course).
+* **NEW!** [pd-jacktime](https://github.com/agraef/pd-jacktime) is a Pd external written in Lua which provides a basic interface to the Jack transport client API. This lets you sync your Pd patches to Jack time masters such as [Ardour](https://ardour.org/) and [Hydrogen](http://hydrogen-music.org). Requires [pd-lua](https://github.com/agraef/pd-lua) (and [Jack](http://jackaudio.org/), of course). An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/pd-jacktime-git/).
 
 * [pd-lv2plugin](https://bitbucket.org/agraef/pd-lv2plugin) is an LV2 plugin
   host for Pd, written in Pure. It provides a Pd external `lv2plugin~`
