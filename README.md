@@ -133,11 +133,12 @@ of the available projects.
 
 ## Notes
 
-The Faust-related software has been tested and is known to work with both the
-stable Faust and the experimental [Faust2][6] version available in the Faust
-git repository. The Pd externals have been tested and work with
-both [vanilla Pd][8] and with the [pd-extended][9], [pd-l2ork][10]
-and [purr-data][21] distributions.
+The Faust-related software has been tested and is known to work with recent
+Faust versions available in the Faust git repository (now on Github). The Pd
+externals have been tested and work with both [vanilla Pd][8] and with
+the [pd-extended][9], [pd-l2ork][10] and [purr-data][21] distributions. (A few
+of the newer patches may require the latest and greatest purr-data to work
+properly, but this is mentioned on the corresponding project pages.)
 
 Source tarballs and binary packages for Pure and related projects can be found
 on the [Download](https://github.com/agraef/pure-lang/releases) page of
