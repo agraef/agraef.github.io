@@ -33,6 +33,8 @@ of the available projects.
 
 * **NEW!** [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These are my Ardour bindings for the [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini) controller which turn the APCmini into a useful DAW controller. There's a little [pdf](https://github.com/agraef/apcmini-ardour/blob/master/APCmini-Ardour.pdf) manual available.
 
+* **NEW!** [ez-ag](https://github.com/agraef/ez-ag) is a Pd patch which aims to make it easier to use Yamaha's "learning guitar", the [Yamaha EZ-AG](https://www.bhphotovideo.com/c/product/353860-REG/Yamaha_EZAG_EZ_AG_Self_Teaching_Guitar.html), as a MIDI controller. Also works with the [Jamstik](https://jamstik.com/).
+
 * [faust-lv2](https://bitbucket.org/agraef/faust-lv2) is my latest and
   greatest version of the LV2 plugin architecture for the Faust programming
   language. This gives you a convenient way to create LV2 effect and
@@ -65,6 +67,8 @@ of the available projects.
   [Pd-L2Ork Ubuntu PPAs](https://l2orkubuntu.bitbucket.io/) page for details.
 
 * **NEW!** [pd-jacktime](https://github.com/agraef/pd-jacktime) is a Pd external written in Lua which provides a basic interface to the Jack transport client API. This lets you sync your Pd patches to Jack time masters such as [Ardour](https://ardour.org/) and [Hydrogen](http://hydrogen-music.org). Requires [pd-lua](https://github.com/agraef/pd-lua) (and [Jack](http://jackaudio.org/), of course). An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/pd-jacktime-git/).
+
+* **NEW!** [pd-lua](https://github.com/agraef/pd-lua) is a fork of umlaeute's [repository](https://anonscm.debian.org/git/pkg-multimedia/pd-lua.git) with minor touches to provide support for Lua 5.3. Use this to enjoy Claude Heiland-Allen's very nice Pd-Lua module which lets you program Pd externals in the latest and greatest Lua version.
 
 * [pd-lv2plugin](https://bitbucket.org/agraef/pd-lv2plugin) is an LV2 plugin
   host for Pd, written in Pure. It provides a Pd external `lv2plugin~`
@@ -106,6 +110,8 @@ of the available projects.
 * **NEW!** The Purr Data [Github mirror][21] provides a one-stop shop for
   Jonathan Wilkes' new cross-platform variant of Pd-l2ork (a Pd version with a
   much improved GUI and lots of bundled externals).
+
+* **NEW!** [raptor](https://github.com/agraef/raptor): An aleatoric arpeggiator and real-time algorithmic composition program based on the mathematical music theories of the contemporary composer and pioneer of computer music [Clarence Barlow](https://en.wikipedia.org/wiki/Clarence_Barlow). The program is implemented as a Pd patch, but the algorithmic composition core is written in Pure, so you'll need pd-pure to run the patch.
 
 * [rigkontrol](https://bitbucket.org/agraef/rigkontrol) is a Pd patch
   which translates control signals from Native Instrument's [Guitar Rig Kontrol](http://www.soundonsound.com/sos/sep04/articles/niguitar.htm#2)
