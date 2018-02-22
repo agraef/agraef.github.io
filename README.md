@@ -157,13 +157,13 @@ for recent Ubuntu releases on my [Launchpad page][15]. This also offers packages
 for Faust, [Pd-L2Ork](https://l2orkubuntu.bitbucket.io/)
 and some other dependencies which aren't packaged elsewhere.
 
-Mac OS X users can find Pure on [MacPorts][16]; please check the [Pure on Mac
-OS X][17] wiki page for details. We also have binary packages for most of the
-other projects available; please check the Download pages of the corresponding
-projects for those.
+Mac OS X users can find Faust and Pure on [MacPorts][16]; please check
+the [Pure on Mac OS X][17] wiki page for details. We also have binary packages
+for most of the other projects available; please check the Download pages of
+the corresponding projects for those.
 
-Windows users can find pointers to binary packages for Pure and some of the
-addon modules on the [Addons][18] wiki page.
+Windows users can find pointers to binary packages for Faust, Pure and some of
+the addon modules on the [Pure on Windows][18] wiki page.
 
 [0]: https://www.uni-mainz.de/eng/index.php
 [1]: https://agraef.github.io/pure-lang/
@@ -183,7 +183,7 @@ addon modules on the [Addons][18] wiki page.
 [15]: https://launchpad.net/~dr-graef
 [16]: http://www.macports.org/
 [17]: https://github.com/agraef/pure-lang/wiki/PureOnMacOSX
-[18]: https://github.com/agraef/pure-lang/wiki/Addons
+[18]: https://github.com/agraef/pure-lang/wiki/PureOnWindows
 [19]: http://www.steinberg.net/en/company/developers.html
 [20]: https://github.com/ssj71/OSC2MIDI
 [21]: https://agraef.github.io/purr-data/
