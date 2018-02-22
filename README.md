@@ -158,12 +158,12 @@ for Faust, [Pd-L2Ork](https://l2orkubuntu.bitbucket.io/)
 and some other dependencies which aren't packaged elsewhere.
 
 Mac OS X users can find Faust and Pure on [MacPorts][16]; please check
-the [Pure on Mac OS X][17] wiki page for details. We also have binary packages
-for most of the other projects available; please check the Download pages of
-the corresponding projects for those.
+the [Faust][6] and [Pure on Mac OS X][17] wiki pages for details. We also have
+binary packages for most of the other projects available; please check the
+Download pages of the corresponding projects for those.
 
 Windows users can find pointers to binary packages for Faust, Pure and some of
-the addon modules on the [Pure on Windows][18] wiki page.
+the addon modules on the [Faust][6] and [Pure on Windows][18] wiki pages.
 
 [0]: https://www.uni-mainz.de/eng/index.php
 [1]: https://agraef.github.io/pure-lang/
@@ -171,7 +171,7 @@ the addon modules on the [Pure on Windows][18] wiki page.
 [3]: https://agraef.github.io/pure-docs/
 [4]: https://agraef.github.io/pure-docs/puredoc.pdf
 [5]: http://faust.grame.fr/
-[6]: https://github.com/agraef/pure-lang/wiki/Faust2
+[6]: https://github.com/agraef/pure-lang/wiki/Faust
 [7]: http://puredata.info/
 [8]: http://puredata.info/downloads/pure-data
 [9]: http://puredata.info/downloads/pd-extended
