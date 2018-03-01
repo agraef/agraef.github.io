@@ -134,36 +134,15 @@ of the available projects.
 ## Notes
 
 The Faust-related software has been tested and is known to work with recent
-Faust versions available in the Faust git repository (now on Github). The Pd
+Faust versions available in the [Faust git repository](https://github.com/grame-cncm/faust). The Pd
 externals have been tested and work with both [vanilla Pd][8] and with
 the [pd-extended][9], [pd-l2ork][10] and [purr-data][21] distributions. (A few
 of the newer patches may require the latest and greatest purr-data to work
 properly, but this is mentioned on the corresponding project pages.)
 
 Source tarballs and binary packages for Pure and related projects can be found
-on the [Download](https://github.com/agraef/pure-lang/releases) page of
+on the [Download](https://github.com/agraef/pure-lang/wiki/Download) page of
 the Pure project.
-
-Users of Arch Linux may want to check out the [Arch User Repositories][13] for
-ready-made packages (in particular, you can find the Pure packages
-[here](https://aur.archlinux.org/packages/?SeB=m&K=pure-aur&PP=100) and the other
-AUR packages that I maintain [here](https://aur.archlinux.org/packages/?SeB=m&K=aggraef&PP=100)).
-More details, including pointers to binary package repositories, can be found on
-the [Pure on Arch Linux][14] wiki page. Moreover, Arch packages for pd-l2ork et
-al can be found in my [Pd-L2Ork Arch Package Repository](https://l2orkaur.bitbucket.io/).
-
-I also maintain a reasonably complete and up-to-date collection of packages
-for recent Ubuntu releases on my [Launchpad page][15]. This also offers packages
-for Faust, [Pd-L2Ork](https://l2orkubuntu.bitbucket.io/)
-and some other dependencies which aren't packaged elsewhere.
-
-Mac OS X users can find Faust and Pure on [MacPorts][16]; please check
-the [Faust][6] and [Pure on Mac OS X][17] wiki pages for details. We also have
-binary packages for most of the other projects available; please check the
-Download pages of the corresponding projects for those.
-
-Windows users can find pointers to binary packages for Faust, Pure and some of
-the addon modules on the [Faust][6] and [Pure on Windows][18] wiki pages.
 
 [0]: https://www.uni-mainz.de/eng/index.php
 [1]: https://agraef.github.io/pure-lang/
