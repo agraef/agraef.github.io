@@ -23,11 +23,15 @@ of the available projects.
   [pd-faust](https://agraef.github.io/pure-docs/pd-faust.html) modules which let
   you run Pure and Faust programs as Pd externals.
 
-* The Pure Language and Library Documentation is available in [html][3] and
-  [pdf][4] format.
+* The Pure Language and Library Documentation is available in [html][3a]
+  and [pdf][3b] format. There's also a [Pure Quick Reference][4] guide for the
+  impatient.
 
 * [sublime-pure](https://bitbucket.org/agraef/sublime-pure) provides Pure
   language support for the [Sublime Text](http://www.sublimetext.com/) editor.
+
+* The [pygments-lexer-pure](https://github.com/agraef/pygments-lexer-pure)
+  addon lets you highlight Pure syntax using [Pygments](http://pygments.org/).
 
 ## The computer music and multimedia corner
 
@@ -125,9 +129,9 @@ of the available projects.
 * [sclsyx](https://bitbucket.org/agraef/sclsyx) is a little Pure script which
   helps you create MIDI Tuning Standard (MTS) sysex or MIDI files from musical
   tunings in Manuel Op de Coul's [Scala](http://www.huygens-fokker.org/scala/)
-  format. It can also print the sysex messages in a human-readable format on the
-  terminal, from where you can copy and paste the data into DAWs which support
-  manual entry of sysex messages. **NEW!** This program is also available as a
+  format. It can also print the sysex messages in a human-readable format on
+  the terminal, from where you can copy and paste the data into DAWs which
+  support manual entry of sysex messages. This program is also available as a
   Pd external in the [pd-smmf](https://bitbucket.org/agraef/pd-smmf) package,
   see above.
 
@@ -147,8 +151,9 @@ the Pure project.
 [0]: https://www.uni-mainz.de/eng/index.php
 [1]: https://agraef.github.io/pure-lang/
 [2]: https://github.com/agraef/pure-lang
-[3]: https://agraef.github.io/pure-docs/
-[4]: https://agraef.github.io/pure-docs/puredoc.pdf
+[3a]: https://agraef.github.io/pure-docs/
+[3b]: https://agraef.github.io/pure-docs/puredoc.pdf
+[4]: https://agraef.github.io/pure-lang/quickref/pure-quickref.pdf
 [5]: http://faust.grame.fr/
 [6]: https://github.com/agraef/pure-lang/wiki/Faust
 [7]: http://puredata.info/
