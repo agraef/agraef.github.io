@@ -135,6 +135,8 @@ of the available projects.
   Pd external in the [pd-smmf](https://bitbucket.org/agraef/pd-smmf) package,
   see above.
 
+* **NEW!** [xwiimote-lua](https://github.com/agraef/xwiimote-lua) is a Pd external written in Lua which provides easy access to the Wii Remote on Linux, using the [xwiimote](http://dvdhrm.github.io/xwiimote/) library. (The package also includes a little Lua wrapper of libxwiimote which may be useful to Lua programmers who don't run Pd but are looking for a way to access the Wii Remote from Lua.)
+
 ## Notes
 
 The Faust-related software has been tested and is known to work with recent
