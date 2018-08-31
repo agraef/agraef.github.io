@@ -35,7 +35,7 @@ of the available projects.
 
 ## The computer music and multimedia corner
 
-* [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These are my Ardour bindings for the [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini) controller which turn the APCmini into a useful DAW controller. There's a little [pdf](https://github.com/agraef/apcmini-ardour/blob/master/APCmini-Ardour.pdf) manual available. (This is now largely obsolete with the advent of the midizap program which also includes an MCU emulation for the APCmini, see below.)
+* [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These are my Ardour bindings for the [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini) controller which turn the APCmini into a useful DAW controller. There's a little [pdf](https://github.com/agraef/apcmini-ardour/blob/master/APCmini-Ardour.pdf) manual available. (This is now largely obsolete with the advent of the midizap program which also includes a Mackie emulation for the APCmini, see below.)
 
 * [EZ-AG](https://github.com/agraef/ez-ag) is a Pd patch which aims to make it easier to use Yamaha's "learning guitar", the [Yamaha EZ-AG](https://www.bhphotovideo.com/c/product/353860-REG/Yamaha_EZAG_EZ_AG_Self_Teaching_Guitar.html), as a MIDI controller. Also works with the [Jamstik](https://jamstik.com/). Best used with [Purr Data][21].
 
@@ -53,7 +53,7 @@ of the available projects.
   so you need to download it yourself; please check the included README file
   for details.
 
-* **NEW!** [midizap](https://github.com/agraef/midizap) translates Jack MIDI input to X11 keyboard and mouse events as well as MIDI output, so that you can use it to operate your favorite multimedia applications such as audio and video editors and DAW software. It is a much enhanced version of my own fork of Eric Messick's ShuttlePRO program (see below) which provides similar functionality for the Contour Design Shuttle devices. An Arch PKGBUILD for midizap is not available just yet, but will hopefully soon show up in the [AUR](https://aur.archlinux.org/packages/midizap-git/).
+* **NEW!** [midizap](https://github.com/agraef/midizap) translates Jack MIDI input to X11 keyboard and mouse events as well as MIDI output, so that you can use it to operate your favorite multimedia applications such as audio and video editors and DAW software. It is a much enhanced version of my own fork of Eric Messick's ShuttlePRO program (see below) which provides similar functionality for the Contour Design Shuttle devices. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/midizap-git/).
 
 * [osc2midi-utils](https://bitbucket.org/agraef/osc2midi-utils) is a
   collection of utilities to deal with [TouchOSC][12] layouts and
