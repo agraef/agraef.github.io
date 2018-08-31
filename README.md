@@ -35,9 +35,9 @@ of the available projects.
 
 ## The computer music and multimedia corner
 
-* **NEW!** [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These are my Ardour bindings for the [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini) controller which turn the APCmini into a useful DAW controller. There's a little [pdf](https://github.com/agraef/apcmini-ardour/blob/master/APCmini-Ardour.pdf) manual available.
+* [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These are my Ardour bindings for the [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini) controller which turn the APCmini into a useful DAW controller. There's a little [pdf](https://github.com/agraef/apcmini-ardour/blob/master/APCmini-Ardour.pdf) manual available. (This is now largely obsolete with the advent of the midizap program which also includes an MCU emulation for the APCmini, see below.)
 
-* **NEW!** [EZ-AG](https://github.com/agraef/ez-ag) is a Pd patch which aims to make it easier to use Yamaha's "learning guitar", the [Yamaha EZ-AG](https://www.bhphotovideo.com/c/product/353860-REG/Yamaha_EZAG_EZ_AG_Self_Teaching_Guitar.html), as a MIDI controller. Also works with the [Jamstik](https://jamstik.com/). Best used with [Purr Data][21].
+* [EZ-AG](https://github.com/agraef/ez-ag) is a Pd patch which aims to make it easier to use Yamaha's "learning guitar", the [Yamaha EZ-AG](https://www.bhphotovideo.com/c/product/353860-REG/Yamaha_EZAG_EZ_AG_Self_Teaching_Guitar.html), as a MIDI controller. Also works with the [Jamstik](https://jamstik.com/). Best used with [Purr Data][21].
 
 * [faust-lv2](https://bitbucket.org/agraef/faust-lv2) is my latest and
   greatest version of the LV2 plugin architecture for the Faust programming
@@ -52,6 +52,8 @@ of the available projects.
   plugins, you'll also need Steinberg's VST SDK which isn't redistributable,
   so you need to download it yourself; please check the included README file
   for details.
+
+* **NEW!** [midizap](https://github.com/agraef/midizap) translates Jack MIDI input to X11 keyboard and mouse events as well as MIDI output, so that you can use it to operate your favorite multimedia applications such as audio and video editors and DAW software. It is a much enhanced version of my own fork of Eric Messick's ShuttlePRO program (see below) which provides similar functionality for the Contour Design Shuttle devices. An Arch PKGBUILD for midizap is not available just yet, but will hopefully soon show up in the [AUR](https://aur.archlinux.org/packages/midizap-git/).
 
 * [osc2midi-utils](https://bitbucket.org/agraef/osc2midi-utils) is a
   collection of utilities to deal with [TouchOSC][12] layouts and
@@ -70,9 +72,9 @@ of the available projects.
   packages is also available for Ubuntu, please check the
   [Pd-L2Ork Ubuntu PPAs](https://l2orkubuntu.bitbucket.io/) page for details.
 
-* **NEW!** [pd-jacktime](https://github.com/agraef/pd-jacktime) is a Pd external written in Lua which provides a basic interface to the Jack transport client API. This lets you sync your Pd patches to Jack time masters such as [Ardour](https://ardour.org/) and [Hydrogen](http://hydrogen-music.org). Requires [pd-lua](https://github.com/agraef/pd-lua) (and [Jack](http://jackaudio.org/), of course). An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/pd-jacktime-git/).
+* [pd-jacktime](https://github.com/agraef/pd-jacktime) is a Pd external written in Lua which provides a basic interface to the Jack transport client API. This lets you sync your Pd patches to Jack time masters such as [Ardour](https://ardour.org/) and [Hydrogen](http://hydrogen-music.org). Requires [pd-lua](https://github.com/agraef/pd-lua) (and [Jack](http://jackaudio.org/), of course). An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/pd-jacktime-git/).
 
-* **NEW!** [pd-lua](https://github.com/agraef/pd-lua) is a fork of umlaeute's [repository](https://anonscm.debian.org/git/pkg-multimedia/pd-lua.git) with minor touches to provide support for Lua 5.3. Use this to enjoy Claude Heiland-Allen's very nice Pd-Lua module which lets you program Pd externals in the [Lua](http://www.lua.org/) scripting language. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/pd-lua-git/). Included in [Purr Data][21] as of version 2.5.
+* [pd-lua](https://github.com/agraef/pd-lua) is a fork of umlaeute's [repository](https://anonscm.debian.org/git/pkg-multimedia/pd-lua.git) with minor touches to provide support for Lua 5.3. Use this to enjoy Claude Heiland-Allen's very nice Pd-Lua module which lets you program Pd externals in the [Lua](http://www.lua.org/) scripting language. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/pd-lua-git/). Included in [Purr Data][21] as of version 2.5.
 
 * [pd-lv2plugin](https://bitbucket.org/agraef/pd-lv2plugin) is an LV2 plugin
   host for Pd, written in Pure. It provides a Pd external `lv2plugin~`
@@ -111,11 +113,11 @@ of the available projects.
 
 * The [Pure LAC09 examples](https://github.com/agraef/pure-lac09) are back! You can also download them as a [tarball](https://github.com/agraef/pure-lac09/archive/1.0.tar.gz) or a [zip archive](https://github.com/agraef/pure-lac09/archive/1.0.zip) again. These are the accompanying materials for my presentation "Signal Processing in the Pure Programming Language" at the Linux Audio Conference 2009 at Parma, with some minor touches for compatibility with present-day Pure. They were originally on Pure's GoogleCode page, but got lost when GC closed its doors. Since the paper and the accompanying materials are still valid and may still be useful for Pure users, they have found a new home on Github now.
 
-* **NEW!** The Purr Data [Github mirror][21] provides a one-stop shop for
+* The Purr Data [Github mirror][21] provides a one-stop shop for
   Jonathan Wilkes' new cross-platform variant of Pd-l2ork (a Pd version with a
   much improved GUI and lots of bundled externals).
 
-* **NEW!** [Raptor](https://github.com/agraef/raptor): An aleatoric arpeggiator and real-time algorithmic composition program based on the mathematical music theories of the contemporary composer and pioneer of computer music [Clarence Barlow](https://en.wikipedia.org/wiki/Clarence_Barlow). The program is implemented as a Pd patch, but the algorithmic composition core is written in Pure, so you'll need pd-pure to run the patch.
+* [Raptor](https://github.com/agraef/raptor): An aleatoric arpeggiator and real-time algorithmic composition program based on the mathematical music theories of the contemporary composer and pioneer of computer music [Clarence Barlow](https://en.wikipedia.org/wiki/Clarence_Barlow). The program is implemented as a Pd patch, but the algorithmic composition core is written in Pure, so you'll need pd-pure to run the patch.
 
 * [rigkontrol](https://bitbucket.org/agraef/rigkontrol) is a Pd patch
   which translates control signals from Native Instrument's [Guitar Rig Kontrol](http://www.soundonsound.com/sos/sep04/articles/niguitar.htm#2)
@@ -137,7 +139,7 @@ of the available projects.
 
 * **NEW!** [ShuttlePRO](https://github.com/agraef/ShuttlePRO) is a user program for interpreting input from a [Contour Design Shuttle](https://www.contourdesign.com/product/shuttlepro-v2/) device. This is a fork of [nanosyzygy's original version](https://github.com/nanosyzygy/ShuttlePRO) which adds many enhancements such as Jack MIDI support, so that the device can also be used as a MIDI controller. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/shuttlepro-git/).
 
-* **NEW!** [xwiimote-lua](https://github.com/agraef/xwiimote-lua) is a Pd external written in Lua which provides easy access to the Wii Remote on Linux, using the [xwiimote](http://dvdhrm.github.io/xwiimote/) library. (The package also includes a little Lua wrapper of libxwiimote which may be useful to Lua programmers who don't run Pd but are looking for a way to access the Wii Remote from Lua.)
+* [xwiimote-lua](https://github.com/agraef/xwiimote-lua) is a Pd external written in Lua which provides easy access to the Wii Remote on Linux, using the [xwiimote](http://dvdhrm.github.io/xwiimote/) library. (The package also includes a little Lua wrapper of libxwiimote which may be useful to Lua programmers who don't run Pd but are looking for a way to access the Wii Remote from Lua.)
 
 ## Notes
 
