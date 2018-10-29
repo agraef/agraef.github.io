@@ -55,6 +55,8 @@ of the available projects.
 
 * **NEW!** [midizap](https://github.com/agraef/midizap) translates Jack MIDI input to X11 keyboard and mouse events as well as MIDI output, so that you can use it to operate your favorite multimedia applications such as audio and video editors and DAW software. It is a much enhanced version of my own fork of Eric Messick's ShuttlePRO program (see below) which provides similar functionality for the Contour Design Shuttle devices. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/midizap-git/).
 
+* **NEW!** [myblocks](https://github.com/agraef/myblocks) is a simple C+Lua interface and Pd external for the [BLOCKS SDK](https://github.com/WeAreROLI/BLOCKS-SDK). This module lets you manage and control the [Roli BLOCKS](https://roli.com/products/blocks/) devices in Linux. The Pd external is written in Lua and thus requires Pd-Lua (see below). The build system currently targets Linux and requires gcc and GNU make, but the code should work on any platform supported by [JUCE](https://github.com/WeAreROLI/JUCE) and thus porting to Mac or Windows should be a piece of cake.
+
 * [osc2midi-utils](https://bitbucket.org/agraef/osc2midi-utils) is a
   collection of utilities to deal with [TouchOSC][12] layouts and
   [osc2midi][20] map files. Currently it offers a converter from TouchOSC
