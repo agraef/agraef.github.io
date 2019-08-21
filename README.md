@@ -1,11 +1,12 @@
 # Welcome!
 
-You've reached Albert Gräf's presence on Github. I'm a computer scientist and
-mathematician working at the [Johannes Gutenberg University][0] (JGU) at Mainz,
-Germany. Here you can find pointers to the source code and documentation of my
-functional programming language [Pure][1] (now on Github) and related projects
-still mostly hosted on Bitbucket. In particular, there's also some software
-for [Faust][5], Grame's functional dsp programming language, [Pd][7], Miller
+You've reached Albert Gräf's presence on Github. I'm a [computer scientist and
+mathematician](http://www.musikinformatik.uni-mainz.de/e_ag.php) working at
+the [Johannes Gutenberg University][0] (JGU) at Mainz, Germany. Here you can
+find pointers to the source code and documentation of my functional
+programming language [Pure][1] (now on Github) and related projects still
+mostly hosted on Bitbucket. In particular, there's also some software for
+[Faust][5], Grame's functional dsp programming language, [Pd][7], Miller
 Puckette's graphical computer music and multimedia environment, and Dave
 Robillard's [LV2][11], the new audio and MIDI plugin standard for Linux and
 other Unix systems.
