@@ -54,9 +54,9 @@ of the available projects.
   so you need to download it yourself; please check the included README file
   for details.
 
-* **NEW!** [midizap](https://github.com/agraef/midizap) translates Jack MIDI input to X11 keyboard and mouse events as well as MIDI output, so that you can use it to operate your favorite multimedia applications such as audio and video editors and DAW software. It is a much enhanced version of my own fork of Eric Messick's ShuttlePRO program (see below) which provides similar functionality for the Contour Design Shuttle devices. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/midizap-git/).
+* [midizap](https://github.com/agraef/midizap) translates Jack MIDI input to X11 keyboard and mouse events as well as MIDI output, so that you can use it to operate your favorite multimedia applications such as audio and video editors and DAW software. It is a much enhanced version of my own fork of Eric Messick's ShuttlePRO program (see below) which provides similar functionality for the Contour Design Shuttle devices. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/midizap-git/).
 
-* **NEW!** [myblocks](https://github.com/agraef/myblocks) is a simple C+Lua interface and Pd external for the [BLOCKS SDK](https://github.com/WeAreROLI/BLOCKS-SDK). This module lets you manage and control the [Roli BLOCKS](https://roli.com/products/blocks/) devices in Linux. The Pd external is written in Lua and thus requires Pd-Lua (see below). The build system currently targets Linux and requires gcc and GNU make, but the code should work on any platform supported by [JUCE](https://github.com/WeAreROLI/JUCE) and thus porting to Mac or Windows should be a piece of cake.
+* [myblocks](https://github.com/agraef/myblocks) is a simple C+Lua interface and Pd external for the [BLOCKS SDK](https://github.com/WeAreROLI/BLOCKS-SDK). This module lets you manage and control the [Roli BLOCKS](https://roli.com/products/blocks/) devices in Linux. The Pd external is written in Lua and thus requires Pd-Lua (see below). The build system currently targets Linux and requires gcc and GNU make, but the code should work on any platform supported by [JUCE](https://github.com/WeAreROLI/JUCE) and thus porting to Mac or Windows should be a piece of cake.
 
 * [osc2midi-utils](https://bitbucket.org/agraef/osc2midi-utils) is a
   collection of utilities to deal with [TouchOSC][12] layouts and
@@ -99,7 +99,8 @@ of the available projects.
   around MIDI data in Pd. Two abstractions midi-input.pd and midi-output.pd
   are included to translate between Pd's built-in MIDI I/O and SMMF. (These
   abstractions are just plain Pd patches which require no additional software
-  to work, but the other examples included in the package require pd-pure.)
+  to work, but the other examples included in the package require either
+  pd-lua or pd-pure.)
 
 * [pd-touchosc](https://bitbucket.org/agraef/pd-touchosc) is a TouchOSC MIDI
   bridge written in Pure. This is a collection of Pd externals and patches
@@ -140,7 +141,7 @@ of the available projects.
   Pd external in the [pd-smmf](https://bitbucket.org/agraef/pd-smmf) package,
   see above.
 
-* **NEW!** [ShuttlePRO](https://github.com/agraef/ShuttlePRO) is a user program for interpreting input from a [Contour Design Shuttle](https://www.contourdesign.com/product/shuttlepro-v2/) device. This is a fork of [nanosyzygy's original version](https://github.com/nanosyzygy/ShuttlePRO) which adds many enhancements such as Jack MIDI support, so that the device can also be used as a MIDI controller. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/shuttlepro-git/).
+* [ShuttlePRO](https://github.com/agraef/ShuttlePRO) is a user program for interpreting input from a [Contour Design Shuttle](https://www.contourdesign.com/product/shuttlepro-v2/) device. This is a fork of [nanosyzygy's original version](https://github.com/nanosyzygy/ShuttlePRO) which adds many enhancements such as Jack MIDI support, so that the device can also be used as a MIDI controller. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/shuttlepro-git/).
 
 * [xwiimote-lua](https://github.com/agraef/xwiimote-lua) is a Pd external written in Lua which provides easy access to the Wii Remote on Linux, using the [xwiimote](http://dvdhrm.github.io/xwiimote/) library. (The package also includes a little Lua wrapper of libxwiimote which may be useful to Lua programmers who don't run Pd but are looking for a way to access the Wii Remote from Lua.)
 
