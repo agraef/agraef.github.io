@@ -121,7 +121,7 @@ of the available projects.
   Jonathan Wilkes' new cross-platform variant of Pd-l2ork (a Pd version with a
   much improved GUI and lots of bundled externals).
 
-* [Raptor](https://github.com/agraef/raptor): An aleatoric arpeggiator and real-time algorithmic composition program based on the mathematical music theories of the contemporary composer and pioneer of computer music [Clarence Barlow](https://en.wikipedia.org/wiki/Clarence_Barlow). The program is implemented as a Pd patch, but the algorithmic composition core is written in Pure, so you'll need pd-pure to run the patch.
+* **New** [Raptor](https://github.com/agraef/raptor-lua): An aleatoric arpeggiator and real-time algorithmic composition program based on the mathematical music theories of the contemporary composer and pioneer of computer music [Clarence Barlow](https://en.wikipedia.org/wiki/Clarence_Barlow). Now at version 6, which is the most recent Lua-based version. (The program is implemented as a Pd patch, but the algorithmic composition core is written in Lua, so you'll need [pd-lua](https://github.com/agraef/pd-lua) to run the patch.)
 
 * [rigkontrol](https://bitbucket.org/agraef/rigkontrol) is a Pd patch
   which translates control signals from Native Instrument's [Guitar Rig Kontrol](http://www.soundonsound.com/sos/sep04/articles/niguitar.htm#2)
