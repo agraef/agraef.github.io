@@ -16,13 +16,13 @@ This is one of my flagship projects, a functional programming language based on 
 
 * For beginners, I recommend the [Pure Quick Reference][4] guide which provides a (relatively) quick overview of the language. Also, the Pure Language and Library Documentation is available in [html][3a] and [pdf][3b] format.
 
-* [sublime-pure](https://bitbucket.org/agraef/sublime-pure) provides Pure language support for the [Sublime Text](http://www.sublimetext.com/) editor.
+* [sublime-pure](https://github.com/agraef/sublime-pure) provides Pure language support for the [Sublime Text](http://www.sublimetext.com/) editor.
 
 * The [pygments-lexer-pure](https://github.com/agraef/pygments-lexer-pure) addon lets you highlight Pure syntax using [Pygments](http://pygments.org/).
 
 ## Purr Data
 
-Another flagship project that I contribute to is Jonathan Wilkes' [Purr Data](https://git.purrdata.net/jwilkes/purr-data), which is a flavor of Miller Puckette's graphical venerable [Pd][7] with a modern GUI and lots of bundled externals. Purr Data is also known as Pd-l2ork 2, since it is a cross-platform version of Ico Bukvic’s [Pd-l2ork](), which in turn was forked from Hans-Christoph Steiner’s (popular, but discontinued) [Pd-extended](http://puredata.info/downloads/pd-extended).
+Another flagship project that I contribute to is Jonathan Wilkes' [Purr Data](https://git.purrdata.net/jwilkes/purr-data), which is a flavor of Miller Puckette's graphical venerable [Pd][7] with a modern GUI and lots of bundled externals. Purr Data is also known as Pd-l2ork 2, since it is a cross-platform version of Ico Bukvic’s [Pd-l2ork][10], which in turn was forked from Hans-Christoph Steiner’s (popular, but discontinued) [Pd-extended](http://puredata.info/downloads/pd-extended).
 
 If you have been looking for a modern successor to Pd-extended, this is it. I've been using Purr Data in pretty much all my university courses since 2016, contributed a few bits and pieces over the years, and serve as co-developer, release master and Linux package maintainer in the project.
 
@@ -30,7 +30,7 @@ My [Purr Data Github mirror][21] provides a one-stop shop to make it easy for yo
 
 ## The computer music and multimedia corner
 
-* [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These are my Ardour bindings for the [AKAI APCmini](http://www.akaipro.com/products/pad-controllers/apc-mini) controller which turn the APCmini into a useful DAW controller. There's a little [pdf](https://github.com/agraef/apcmini-ardour/blob/master/APCmini-Ardour.pdf) manual available. (This is now largely obsolete with the advent of the midizap program which also includes a Mackie emulation for the APCmini, see below.)
+* [apcmini-ardour](https://github.com/agraef/apcmini-ardour): These are my Ardour bindings for the [AKAI APCmini](https://www.akaipro.com/apc-mini) controller which turn the APCmini into a useful DAW controller. There's a little [pdf](https://github.com/agraef/apcmini-ardour/blob/master/APCmini-Ardour.pdf) manual available. (This is now largely obsolete with the advent of the midizap program which also includes a Mackie emulation for the APCmini, see below.)
 
 * [EZ-AG](https://github.com/agraef/ez-ag) is a Pd patch which aims to make it easier to use Yamaha's "learning guitar", the [Yamaha EZ-AG](https://www.bhphotovideo.com/c/product/353860-REG/Yamaha_EZAG_EZ_AG_Self_Teaching_Guitar.html), as a MIDI controller. Also works with the [Jamstik](https://jamstik.com/). Best used with [Purr Data][21].
 
@@ -66,7 +66,7 @@ My [Purr Data Github mirror][21] provides a one-stop shop to make it easy for yo
 
 * [sclsyx](https://bitbucket.org/agraef/sclsyx) is a little Pure script which helps you create MIDI Tuning Standard (MTS) sysex or MIDI files from musical tunings in Manuel Op de Coul's [Scala](http://www.huygens-fokker.org/scala/) format. It can also print the sysex messages in a human-readable format on the terminal, from where you can copy and paste the data into DAWs which support manual entry of sysex messages. This program is also available as a Pd external in the [pd-smmf](https://bitbucket.org/agraef/pd-smmf) package, see above.
 
-* [ShuttlePRO](https://github.com/agraef/ShuttlePRO) is a user program for interpreting input from a [Contour Design Shuttle](https://www.contourdesign.com/product/shuttlepro-v2/) device. This is a fork of [nanosyzygy's original version](https://github.com/nanosyzygy/ShuttlePRO) which adds many enhancements such as Jack MIDI support, so that the device can also be used as a MIDI controller. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/shuttlepro-git/).
+* [ShuttlePRO](https://github.com/agraef/ShuttlePRO) is a user program for interpreting input from a [Contour Design Shuttle](https://www.contourdesign.com/product/shuttle/) device. This is a fork of [nanosyzygy's original version](https://github.com/nanosyzygy/ShuttlePRO) which adds many enhancements such as Jack MIDI support, so that the device can also be used as a MIDI controller. An Arch PKGBUILD is available in the [AUR](https://aur.archlinux.org/packages/shuttlepro-git/).
 
 * [xwiimote-lua](https://github.com/agraef/xwiimote-lua) is a Pd external written in Lua which provides easy access to the Wii Remote on Linux, using the [xwiimote](http://dvdhrm.github.io/xwiimote/) library. (The package also includes a little Lua wrapper of libxwiimote which may be useful to Lua programmers who don't run Pd but are looking for a way to access the Wii Remote from Lua.)
 
