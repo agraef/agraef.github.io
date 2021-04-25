@@ -10,7 +10,7 @@ Please note that this site is in a perpetual state of construction, and also ser
 
 ## The Pure programming language
 
-This is one of my flagship projects, a functional programming language based on [term rewriting](https://en.wikipedia.org/wiki/Rewriting) featuring an [LLVM](http://llvm.org/) JIT compiler backend and a fairly extensive collection of add-on modules. The project has been somewhat dormant in the past few years, as I've been working on other things, and it requires the old [LLVM 3.5](https://releases.llvm.org/download.html#3.5.0) version, but it's still perfectly usable. In any case, I'd say that there's nothing else quite like it in the crowded space of modern programming languages, so give it a try!
+This is one of my flagship projects, a functional programming language based on [term rewriting](https://en.wikipedia.org/wiki/Rewriting) featuring an [LLVM](http://llvm.org/) JIT compiler backend and a fairly extensive collection of add-on modules. The project has been somewhat dormant in the past few years, as I've been working on other things, and it requires the old [LLVM 3.5](https://releases.llvm.org/download.html#3.5.0) version, but it's still perfectly usable. I'd say that there's nothing else quite like it in the crowded space of modern programming languages, so give it a try!
 
 * The [pure-lang][2] source code repository has the source code of the Pure programming language interpreter and various addon modules. In particular, there are the [pd-pure](https://agraef.github.io/pure-docs/pd-pure.html) and [pd-faust](https://agraef.github.io/pure-docs/pd-faust.html) modules which let you run Pure and Faust programs as Pd externals.
 
