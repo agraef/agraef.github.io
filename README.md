@@ -2,6 +2,10 @@
 
 You've reached Albert Gräf's presence on Github. I'm a [computer scientist and mathematician](aboutme.md) working at the [Johannes Gutenberg University][0] (JGU) at Mainz, Germany. Here you can find pointers to the source code and documentation of my functional programming language [Pure][1] (now on Github) and related projects still mostly hosted on Bitbucket. In particular, there's also some software for [Faust][5], Grame's functional dsp programming language, [Pd][7], Miller Puckette's graphical computer music and multimedia environment, and Dave Robillard's [LV2][11], the new audio and MIDI plugin standard for Linux and other Unix systems.
 
+<div style="width: 100%; margin: 0px auto;">
+<img src="museum-lac2012.jpg" width="30%"/><img src="ag-lac2005-frank-2.png" width="30%"/><img src="IFC18-students.jpg" width="33.5%"/>
+</div>
+
 Please note that this site is in a perpetual state of construction, and also serves as a grab bag for various other side projects. I will hopefully turn it into a full website some time, but for the time being, here's a brief overview of the available projects.
 
 ## The Pure programming language
