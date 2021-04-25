@@ -1,22 +1,32 @@
 # Welcome!
 
-You've reached Albert Gräf's presence on Github. I'm a [computer scientist and mathematician](aboutme.md) working at the [Johannes Gutenberg University][0] (JGU) at Mainz, Germany. Here you can find pointers to the source code and documentation of my functional programming language [Pure][1] (now on Github) and related projects still mostly hosted on Bitbucket. In particular, there's also some software for [Faust][5], Grame's functional dsp programming language, [Pd][7], Miller Puckette's graphical computer music and multimedia environment, and Dave Robillard's [LV2][11], the new audio and MIDI plugin standard for Linux and other Unix systems.
+You've reached Albert Gräf's presence on Github. I'm a [computer scientist and mathematician](aboutme.md) working at the [Johannes Gutenberg University][0] (JGU) at Mainz, Germany. Here you can find pointers to the source code and documentation of my functional programming language [Pure][1] and some related projects. In particular, there's also some software for [Faust][5], Grame's functional dsp programming language, [Pd][7], Miller Puckette's graphical computer music and multimedia environment, and Dave Robillard's [LV2][11], the new audio and MIDI plugin standard for Linux and other Unix systems. Pointers to Jonathan Wilkes' Purr Data project, a Pd flavor to which I've been contributing, are provided as well.
 
 <div style="width: 100%; margin: 0px auto;">
 <img src="museum-lac2012.jpg" width="30%"/><img src="ag-lac2005-frank-2.png" width="30%"/><img src="IFC18-students.jpg" width="33.5%"/>
 </div>
 
-Please note that this site is in a perpetual state of construction, and also serves as a grab bag for various other side projects. I will hopefully turn it into a full website some time, but for the time being, here's a brief overview of the available projects.
+Please note that this site is in a perpetual state of construction, and also serves as a grab bag for various other side projects. I will hopefully turn it into a full website some time, but for the time being, here's a brief overview of the available projects. (Most of my projects are on Github these days, but some of the older stuff is still hosted on Bitbucket at this point.)
 
 ## The Pure programming language
 
+This is one of my flagship projects, a functional programming language based on [term rewriting](https://en.wikipedia.org/wiki/Rewriting) featuring an [LLVM](http://llvm.org/) JIT compiler backend and a fairly extensive collection of add-on modules. The project has been somewhat dormant in the past few years, as I've been working on other things, and it requires the old [LLVM 3.5](https://releases.llvm.org/download.html#3.5.0) version, but it's still perfectly usable. In any case, I'd say that there's nothing else quite like it in the crowded space of modern programming languages, so give it a try!
+
 * The [pure-lang][2] source code repository has the source code of the Pure programming language interpreter and various addon modules. In particular, there are the [pd-pure](https://agraef.github.io/pure-docs/pd-pure.html) and [pd-faust](https://agraef.github.io/pure-docs/pd-faust.html) modules which let you run Pure and Faust programs as Pd externals.
 
-* The Pure Language and Library Documentation is available in [html][3a] and [pdf][3b] format. There's also a [Pure Quick Reference][4] guide for the impatient.
+* For beginners, I recommend the [Pure Quick Reference][4] guide which provides a (relatively) quick overview of the language. Also, the Pure Language and Library Documentation is available in [html][3a] and [pdf][3b] format.
 
 * [sublime-pure](https://bitbucket.org/agraef/sublime-pure) provides Pure language support for the [Sublime Text](http://www.sublimetext.com/) editor.
 
 * The [pygments-lexer-pure](https://github.com/agraef/pygments-lexer-pure) addon lets you highlight Pure syntax using [Pygments](http://pygments.org/).
+
+## Purr Data
+
+Another flagship project that I contribute to is Jonathan Wilkes' [Purr Data](https://git.purrdata.net/jwilkes/purr-data), which is a flavor of Miller Puckette's graphical venerable [Pd][7] with a modern GUI and lots of bundled externals. Purr Data is also known as Pd-l2ork 2, since it is a cross-platform version of Ico Bukvic’s [Pd-l2ork](), which in turn was forked from Hans-Christoph Steiner’s (popular, but discontinued) [Pd-extended](http://puredata.info/downloads/pd-extended).
+
+If you have been looking for a modern successor to Pd-extended, this is it. I've been using Purr Data in pretty much all my university courses since 2016, contributed a few bits and pieces over the years, and serve as co-developer, release master and Linux package maintainer in the project.
+
+My [Purr Data Github mirror][21] provides a one-stop shop to make it easy for you to get your hands on the latest source and the available releases, including pre-built packages for Linux (maintained on the [OBS](https://build.opensuse.org/project/show/home:aggraef)), macOS, and Windows.
 
 ## The computer music and multimedia corner
 
@@ -50,8 +60,6 @@ Please note that this site is in a perpetual state of construction, and also ser
 
 * The [Pure LAC09 examples](https://github.com/agraef/pure-lac09) are back! You can also download them as a [tarball](https://github.com/agraef/pure-lac09/archive/1.0.tar.gz) or a [zip archive](https://github.com/agraef/pure-lac09/archive/1.0.zip) again. These are the accompanying materials for my presentation "Signal Processing in the Pure Programming Language" at the Linux Audio Conference 2009 at Parma, with some minor touches for compatibility with present-day Pure. They were originally on Pure's GoogleCode page, but got lost when GC closed its doors. Since the paper and the accompanying materials are still valid and may still be useful for Pure users, they have found a new home on Github now.
 
-* The Purr Data [Github mirror][21] provides a one-stop shop for Jonathan Wilkes' new cross-platform variant of Pd-l2ork (a Pd version with a much improved GUI and lots of bundled externals).
-
 * **New** [Raptor](https://github.com/agraef/raptor-lua): An aleatoric arpeggiator and real-time algorithmic composition program based on the mathematical music theories of the contemporary composer and pioneer of computer music [Clarence Barlow](https://en.wikipedia.org/wiki/Clarence_Barlow). Now at version 6, which is the most recent Lua-based version. (The program is implemented as a Pd patch, but the algorithmic composition core is written in Lua, so you'll need [pd-lua](https://github.com/agraef/pd-lua) to run the patch.)
 
 * [rigkontrol](https://bitbucket.org/agraef/rigkontrol) is a Pd patch which translates control signals from Native Instrument's [Guitar Rig Kontrol](http://www.soundonsound.com/sos/sep04/articles/niguitar.htm#2) foot switch to MIDI CC. You'll find this patch useful if you have a Rig Kontrol device lying around which you want to put to good use by hooking it up to your DAW or other MIDI-capable hard- and software. No special externals or addons are required, so the patch should work with any Pd flavor out there. Only the Rig Kontrol 1 (the original blue one) is supported right now, but adjusting the patch to later GR Kontrol versions should be a piece of cake. :)
@@ -76,10 +84,10 @@ Source tarballs and binary packages for Pure and related projects can be found o
 [4]: https://agraef.github.io/pure-lang/quickref/pure-quickref.pdf
 [5]: http://faust.grame.fr/
 [6]: https://github.com/agraef/pure-lang/wiki/Faust
-[7]: http://puredata.info/
+[7]: http://msp.ucsd.edu/software.html
 [8]: http://puredata.info/downloads/pure-data
 [9]: http://puredata.info/downloads/pd-extended
-[10]: http://puredata.info/downloads/Pd-L2Ork
+[10]: http://l2ork.music.vt.edu/main/make-your-own-l2ork/software/
 [11]: http://lv2plug.in/
 [12]: http://hexler.net/software/touchosc
 [13]: https://aur.archlinux.org/
