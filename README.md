@@ -72,7 +72,7 @@ My [Purr Data Github mirror][21] provides a one-stop shop to make it easy for yo
 
 ## Notes
 
-The Faust-related software has been tested and is known to work with recent Faust versions available in the [Faust git repository](https://github.com/grame-cncm/faust). The Pd externals have been tested and work with both [vanilla Pd][8] and with the [pd-extended][9], [pd-l2ork][10] and [purr-data][21] distributions. (A few of the newer patches may require the latest and greatest purr-data to work properly, but this is mentioned on the corresponding project pages.)
+The Faust-related software has been tested and is known to work with recent Faust versions available in the [Faust git repository](https://github.com/grame-cncm/faust). The Pd externals have been tested and work with both [vanilla Pd][7] and with the [pd-extended][9], [pd-l2ork][10] and [purr-data][21] distributions. (A few of the newer patches may require the latest and greatest purr-data to work properly, but this is mentioned on the corresponding project pages.)
 
 Source tarballs and binary packages for Pure and related projects can be found on the [Download](https://github.com/agraef/pure-lang/wiki/Download) page of the Pure project.
 
