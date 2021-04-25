@@ -22,7 +22,7 @@ This is one of my flagship projects, a functional programming language based on 
 
 ## Purr Data
 
-Another flagship project that I contribute to is Jonathan Wilkes' [Purr Data](https://git.purrdata.net/jwilkes/purr-data), which is a flavor of Miller Puckette's graphical venerable [Pd][7] with a modern GUI and lots of bundled externals. Purr Data is also known as Pd-l2ork 2, since it is a cross-platform version of Ico Bukvic’s [Pd-l2ork][10], which in turn was forked from Hans-Christoph Steiner’s (popular, but discontinued) [Pd-extended](http://puredata.info/downloads/pd-extended).
+Another flagship project that I contribute to is Jonathan Wilkes' [Purr Data](https://git.purrdata.net/jwilkes/purr-data), which is a flavor of Miller Puckette's venerable [Pd][7] with a modern GUI and lots of bundled externals. Purr Data is a cross-platform version of Ico Bukvic’s [Pd-l2ork][10], which in turn was forked from Hans-Christoph Steiner’s (popular, but discontinued) [Pd-extended](http://puredata.info/downloads/pd-extended).
 
 If you have been looking for a modern successor to Pd-extended, this is it. I've been using Purr Data in pretty much all my university courses since 2016, contributed a few bits and pieces over the years, and serve as co-developer, release master and Linux package maintainer in the project.
 
