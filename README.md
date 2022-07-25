@@ -30,9 +30,7 @@ My [Purr Data Github mirror][21] provides a one-stop shop to make it easy for yo
 
 ## The computer music and multimedia corner
 
-Most of the software you'll find here is still written in Pure and/or C/C++. These days I tend to prefer Lua, though, because it has a lighter runtime and offers better cross platform compatibility than Pure.
-
-Please note that with such a diverse software portfolio, the burden of maintenance becomes substantial, and thus I can't possibly keep these updated at all times. If you find any issues with any of my projects, please submit a bug report (or, preferably, a pull request).
+Most of the software you'll find here is still written in Pure and/or C/C++. Recently I also started porting old and writing new software in the Lua language, which has a lighter runtime and is easier for beginners than Pure. Please note that with such a diverse software portfolio, the burden of maintenance becomes substantial, and thus I can't possibly keep these updated at all times. If you find any issues with any of my projects, please submit a bug report (or, preferably, a pull request).
 
 * [faust-lv2](https://bitbucket.org/agraef/faust-lv2) is my latest and greatest version of the LV2 plugin architecture for the Faust programming language. This gives you a convenient way to create LV2 effect and instrument plugins from Faust programs.
 
