@@ -6,7 +6,7 @@ You've reached Albert Gräf's presence on Github. I'm a [computer scientist and 
 <img src="museum-lac2012.jpg" width="30%"/><img src="ag-lac2005-frank-2.png" width="30%"/><img src="IFC18-students.jpg" width="33.5%"/>
 </div>
 
-Please note that this site is in a perpetual state of construction, and also serves as a grab bag for various other side projects. I will hopefully turn it into a full website some time, but for the time being, here's a brief overview of the available projects. (Most of my projects are on Github these days, but some of the older stuff is still hosted on Bitbucket at this point.)
+Please note that this site is in a perpetual state of construction, and also serves as a grab bag for various other side projects. I will hopefully turn it into a full website some time, but for the time being, here's a brief overview of the available projects. (Most of my projects are on Github these days, but some of the older stuff is still hosted on Bitbucket.)
 
 ## The Pure programming language
 
